@@ -12,6 +12,8 @@ namespace JuristicMonitor
 {
     public class DbMango
     {
+        /*Add user/password
+         */
         MongoClient client = null;
         IMongoDatabase twstock_db = null;
         public void connect()
